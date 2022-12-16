@@ -2,14 +2,14 @@
 
 [Shairport4w](https://github.com/Frank-Friemel/Shairport4w) の日本語化です。バージョン1.0.9.5(2022年)で公式サイトのプログラムが日本語化されています。iPhoneやiTunesなど、AirPlayに対応したApple製品の音声をパソコン側で受信して再生できます。何年も開発していない様子。
 
-* (Readme.txt)[https://sourceforge.net/projects/shairport4w/files/] なぜか1.0．8.8まで（GitHub以降以前のsourceforgeに存在）
+* [Readme.txt](https://sourceforge.net/projects/shairport4w/files/) なぜか1.0．8.8まで（GitHub以降以前のsourceforgeに存在）
 
 ## 接続方法
 パブリックに設定されたネットワークでは、初回起動時に、ファイヤーウォールの設定が出るので「パブリック」を許可する必要があるみたいです。プライベートに設定されたネットワークではファイアウォールは不要かも。この接続がうまくいけば、送信先の AirPlay のマークを押した時に、パソコンが候補に表れます。
 
 ## 既存のバグ
 
-* 再生中を表示もできない
+* トレイに再生中を表示ができない
 * https://github.com/Frank-Friemel/Shairport4w/issues/5 : サウンドカードので出力デバイスの変更ができない（2020年の情報では古いバージョン1.0.8.8に戻すと再生できる）
 * https://github.com/Frank-Friemel/Shairport4w/issues/7 : 自動起動できません
 
