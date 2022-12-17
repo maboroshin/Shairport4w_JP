@@ -9,9 +9,11 @@
 
 ## 既存のバグ
 
-* トレイに再生中を表示ができない
+* トレイに再生中を表示できない
 * https://github.com/Frank-Friemel/Shairport4w/issues/5 : サウンドカードので出力デバイスの変更ができない（2020年の情報では古いバージョン1.0.8.8に戻すと再生できる）
 * https://github.com/Frank-Friemel/Shairport4w/issues/7 : 自動起動できません
+
+パスワード変更画面の文字の右揃えはここ (ResourceHackerで変更してください) :  https://github.com/Frank-Friemel/Shairport4w/pull/26/files
 
 ### 日本語化方法の解説
 （公式サイトのプログラムが日本語化されたので古い記述です。）
