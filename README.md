@@ -10,7 +10,6 @@
 ## 既存のバグ
 
 * トレイに再生中を表示できない
-* https://github.com/Frank-Friemel/Shairport4w/issues/5 : サウンドカードので出力デバイスの変更ができない（2020年の情報では古いバージョン1.0.8.8に戻すと再生できる）
 * https://github.com/Frank-Friemel/Shairport4w/issues/7 : 自動起動できません
 
 1.0.9.6用の文字切れの変更点はここ (ResourceHackerで変更してください) :  https://github.com/Frank-Friemel/Shairport4w/pull/28/files
