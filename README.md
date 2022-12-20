@@ -15,8 +15,6 @@
 
 * https://github.com/Frank-Friemel/Shairport4w/issues/7 : 自動起動できません
 
-1.0.9.6用の文字切れの変更点はここ (ResourceHackerで変更してください) :  https://github.com/Frank-Friemel/Shairport4w/pull/28/files
-
 ### 日本語化方法の解説
 （公式サイトのプログラムが日本語化されたので古い記述です。）
 
