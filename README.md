@@ -2,23 +2,28 @@
 
 [ShairportQt](https://github.com/Frank-Friemel/ShairportQt) が、2024年に出た後継アプリで最新ですが、英語のままです。開発者も同じです。日本語ファイルが継承されて用意されてるようだけど、英語表示のままだ。[バグ報告しておく](https://github.com/Frank-Friemel/ShairportQt/issues/32)が、たまーに活動しているようで、いつどうなるかわからない。
 
-[Shairport4w](https://github.com/Frank-Friemel/Shairport4w) の日本語化です。バージョン1.0.9.5 (2022年) から、公式サイトのプログラムが日本語化されています。iPhoneやiTunesなど、AirPlayに対応したApple製品の音声をパソコン側で受信して再生できます。何年も開発していない様子。
+[Shairport4w](https://github.com/Frank-Friemel/Shairport4w) の日本語化です。バージョン1.0.9.5 (2022年) から、私が翻訳を提出したので公式サイトのプログラムが日本語化されています。iPhoneやiTunesなど、AirPlayに対応したApple製品の音声をパソコン側で受信して再生できます。何年も開発していない様子。
 
-* [Readme.txt](https://sourceforge.net/projects/shairport4w/files/) なぜか1.0.8.8まで（GitHub以降以前のsourceforgeに存在）
+* [ShairportQt](https://github.com/Frank-Friemel/Shairport4w/releases) (GitHub)
+* [1.0.9.4 -1.0.9.7](https://github.com/Frank-Friemel/Shairport4w/releases) (GitHub)
+* [1.0.5.1 - 1.0.8.8 Readme](https://sourceforge.net/projects/shairport4w/files/) (SourceForge）
+* [1.0.0.16 - 1.0.0.38 News](https://sourceforge.net/p/shairport4w/news/) (SourceForge）
 
 ## 接続方法
+起動には [iTunes](https://www.apple.com/jp/itunes/) に入ってる、Bonjourサービス が必要です。7zipなどでiTunesのインストーラーから Bonjour のインストーラーだけ取り出すこともできます。
 パブリックに設定されたネットワークでは、初回起動時に、ファイヤーウォールの設定が出るので「パブリック」を許可する必要があるみたいです。プライベートに設定されたネットワークではファイアウォールは不要かも。この接続がうまくいけば、送信先の AirPlay のマークを押した時に、パソコンが候補に表れます。
 
 ## FAQ
 
 * トレイからの通知に再生中の曲名が表示されない - 設定の「システム」「通知とアクション」「アプリやその他の送信者からの通知を取得する」を有効化します。
+*  [別のユーザーがサインインしているときにバックグラウンドで実行](https://github.com/Frank-Friemel/Shairport4w/issues/3)
 
 ## 既存のバグ
 
 * https://github.com/Frank-Friemel/Shairport4w/issues/7 : 自動起動できません
 
 ### 日本語化方法の解説
-（**公式サイトのプログラムが日本語化されたので古い記述です**）
+（**Shairport4w の公式サイトのプログラムが日本語化されたので古い記述です**）
 
 [ResourceHackerPortable](https://portableapps.com/apps/utilities/resource-hacker-portable)で追加してください。 [ResourceHacke 日本語化ファイル](https://github.com/Rukoto/Toy-Box)または[日本語化2](https://wwwcfe.hatenablog.com/entry/20100917/resourcehacker) （この日本語化ファイルは App\ResourceHacker\ResourceHacker.exe と同じフォルダに置きます）
 
